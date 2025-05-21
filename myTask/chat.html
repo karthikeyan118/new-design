@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Chat UI</title>
+    <link rel="stylesheet" href="./chat.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="chat-container">
+      <div class="chat-header">
+        <button class="back-btn">←</button>
+        <span class="username">Brooke Davis</span>
+        <div class="avatar"></div>
+      </div>
+
+      <div class="chat-messages">
+        <div class="message left">
+          <div class="sender">Brooke</div>
+          <div class="bubble">Hey Lucas!</div>
+          <div class="bubble">How's your project going?</div>
+        </div>
+
+        <div class="message right">
+          <div class="sender">Lucas</div>
+          <div class="bubble blue">Hi Brooke!</div>
+          <div class="bubble blue">It's going well. Thanks for asking!</div>
+        </div>
+
+        <div class="message left">
+          <div class="sender">Brooke</div>
+          <div class="bubble">
+            No worries. Let me know if you need any help 😊
+          </div>
+        </div>
+      </div>
+
+      <div class="chat-input">
+        <button class="plus-btn">+</button>
+        <input type="text" placeholder="Enter the message..." />
+        <button class="send-btn">➤</button>
+      </div>
+    </div>
+  </body>
+</html>

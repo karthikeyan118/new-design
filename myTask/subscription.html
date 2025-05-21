@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Subscription Plan</title>
+    <link rel="stylesheet" href="./subscription.css" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="card">
+        <h2>
+          Choose your<br /><span class="highlight">subscription plan</span>
+        </h2>
+        <p class="subtext">And get a 7-day free trial</p>
+
+        <div class="plans">
+          <div class="plan selected">
+            <div class="left">
+              <input type="radio" name="plan" checked />
+              <div class="plan-info">
+                <strong>Yearly</strong>
+                <span class="discount">-66% discount</span>
+              </div>
+            </div>
+            <div class="right">
+              <span class="price">€ 94.80</span>
+              <span class="term">every year</span>
+              <div class="badge">★</div>
+            </div>
+          </div>
+
+          <div class="plan">
+            <div class="left">
+              <input type="radio" name="plan" />
+              <div class="plan-info">
+                <strong>Monthly</strong>
+                <span class="discount">-53% discount</span>
+              </div>
+            </div>
+            <div class="right">
+              <span class="price">€ 10.90</span>
+              <span class="term">every month</span>
+            </div>
+          </div>
+
+          <div class="plan">
+            <div class="left">
+              <input type="radio" name="plan" />
+              <div class="plan-info">
+                <strong>Weekly</strong>
+              </div>
+            </div>
+            <div class="right">
+              <span class="price">€ 5.90</span>
+              <span class="term">every week</span>
+            </div>
+          </div>
+        </div>
+
+        <div class="features">
+          <p class="feature-title">You'll get:</p>
+          <ul>
+            <li>★ Unlimited access</li>
+            <li>★ 200GB storage</li>
+            <li>★ Sync all your devices</li>
+          </ul>
+        </div>
+
+        <button class="subscribe-btn">Subscribe</button>
+      </div>
+    </div>
+  </body>
+</html>
